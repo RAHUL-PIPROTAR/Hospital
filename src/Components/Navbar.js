@@ -20,8 +20,7 @@ export default function Navbar(props) {
               data-bs-target="#navbarNavDropdown"
               aria-controls="navbarNavDropdown"
               aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+              aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
@@ -29,8 +28,7 @@ export default function Navbar(props) {
                 <li
                   className={`nav-item  ${
                     location.pathname === "/" ? "active" : ""
-                  }`}
-                >
+                  }`}>
                   <Link className="nav-link active" aria-current="page" to="/">
                     {props.firstmenu}
                   </Link>
@@ -38,8 +36,7 @@ export default function Navbar(props) {
                 <li
                   className={`nav-item  ${
                     location.pathname === "/about" ? "active" : ""
-                  }`}
-                >
+                  }`}>
                   <Link className="nav-link" to="/about">
                     About
                   </Link>
@@ -47,8 +44,7 @@ export default function Navbar(props) {
                 <li
                   className={`nav-item  ${
                     location.pathname === "/upcoming" ? "active" : ""
-                  }`}
-                >
+                  }`}>
                   <Link className="nav-link" to="/upcoming">
                     upcoming Camp
                   </Link>
@@ -56,8 +52,7 @@ export default function Navbar(props) {
                 <li
                   className={`nav-item  ${
                     location.pathname === "/specialities" ? "active" : ""
-                  }`}
-                >
+                  }`}>
                   <Link className="nav-link" to="/specialities">
                     Specialisties
                   </Link>
@@ -65,8 +60,7 @@ export default function Navbar(props) {
                 <li
                   className={`nav-item  ${
                     location.pathname === "/gallery" ? "active" : ""
-                  }`}
-                >
+                  }`}>
                   <Link className="nav-link" to="/gallery">
                     Gallery
                   </Link>
@@ -74,13 +68,15 @@ export default function Navbar(props) {
                 <li
                   className={`nav-item  ${
                     location.pathname === "/doctors" ? "active" : ""
-                  }`}
-                >
+                  }`}>
                   <Link className="nav-link" to="/doctors">
                     our Doctors
                   </Link>
                 </li>
-                <li className={`nav-item  ${location.pathname === "/contectus" ? "active" : ""}`}>
+                <li
+                  className={`nav-item  ${
+                    location.pathname === "/contectus" ? "active" : ""
+                  }`}>
                   <Link className="nav-link" to="/contectus">
                     Contect us
                   </Link>
