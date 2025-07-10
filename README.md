@@ -3,7 +3,7 @@
 This is a hospital website built using ReactJS. The project provides information
 about hospital services, doctors, upcoming camps, gallery, and contact details.
 It is designed to be modern, responsive, and user-friendly.
-
+live : https://hospital-chi-six.vercel.app/
 ## Features
 
 - Home page with hospital overview and statistics
@@ -51,3 +51,5 @@ It is designed to be modern, responsive, and user-friendly.
 ## License
 
 This project is for educational/demo purposes.
+
+
