@@ -46,7 +46,7 @@ export default function Navbar(props) {
                     location.pathname === "/upcoming" ? "active" : ""
                   }`}>
                   <Link className="nav-link" to="/upcoming">
-                    upcoming Camp
+                    upcoming Camps
                   </Link>
                 </li>
                 <li
